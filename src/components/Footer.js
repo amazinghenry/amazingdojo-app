@@ -1,6 +1,14 @@
 import "../index.css"
 import logo from "../assets/amazingdojo-logo.png"
+import github from "../assets/github-logo.svg"
+import instagram from "../assets/instagram-logo.svg"
+import twitter from "../assets/twitter-logo.svg"
 
+const links = {
+    twitter :  'https://twitter.com/amazing_henry',
+    github : 'https://github.com/amazinghenry',
+    instagram : 'https://www.instagram.com/amazinghenry/'
+}
 
 const Footer = () => {
     const date = new Date();
@@ -12,13 +20,20 @@ const Footer = () => {
             <div className="footer-group">
                 <div className="footer-item">
                     <a href="/">
-                        <img src={logo} className="img-fluid" alt="amazingdojo logo"/>
+                        <img src={logo} className="main-logo" alt="amazingdojo logo"/>
                     </a>
                 </div>
-                <div class="footer-item social">
-                    <a href="/"><i className="fa-brands fa-instagram fa-2x"></i></a>
-                    <a href="/"><i className="fa-brands fa-twitter fa-2x"></i></a>
-                    <a href="/"><i className="fa-brands fa-facebook fa-2x"></i></a>
+                <div class="social">
+                    <a href = {links.github} className="github-link">
+                        <img src={github} alt="github link" className="main-logo" />
+                    </a>
+                    <a href={links.instagram} className="instagram-link">
+                        <img src={instagram} alt="instagram link" className="main-logo" />
+                    </a>
+                    <a href={links.twitter} className="twitter-link">
+                        <img src={twitter} alt="twitter link" className="main-logo" />
+                    </a>
+
                 </div>
                 <div className="footer-item">
                     <p>&copy; { year } All rights Reserved. Designed &#38; Developed by Henry Adodo </p>

@@ -13,13 +13,13 @@ function App() {
 
   return (
    <div className='wrapper'>
-    {/* <Navbar /> */}
-    <Header />
-    <About />
-    <Services />
-    <Projectlogic />
-    <Forms />
-    <Footer />
+      <Navbar />
+      <Header />
+      <About />
+      <Services />
+      <Projectlogic />
+      <Forms />
+      <Footer />
    </div>
   );
 }

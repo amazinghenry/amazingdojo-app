@@ -44,7 +44,6 @@ const handleSubmit = (e) => {
                     rows={5}
                     cols={30}
                     defaultValue = {'Type in message...'} />
-                    {/* <textarea name="message" id="message" value="Messages" cols="30" rows="5" placeholder="Messages"></textarea> */}
                     <input type="submit" className="form-submit" value={loading ? "Sending..." : "Send Message"} />
                 </form>
                 
