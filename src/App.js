@@ -1,9 +1,9 @@
 import './index.css';
-import Navbar from './components/Nav-bar';
+import Navbar from './components/Navbar';
 import Header from './components/Header';
 import About from './components/About';
 import Services from './components/Services';
-import Projectlogic from './components/Projectlogic';
+import ProjectList from './components/ProjectList';
 import Testimonial from './components/Testimonial';
 import Forms from './components/Forms';
 import Footer from './components/Footer';
@@ -12,12 +12,13 @@ import Footer from './components/Footer';
 function App() {
 
   return (
-   <div className='wrapper'>
+   <div className='App'>
       <Navbar />
       <Header />
       <About />
       <Services />
-      <Projectlogic />
+      <ProjectList />
+      <Testimonial />
       <Forms />
       <Footer />
    </div>

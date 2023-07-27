@@ -1,11 +1,11 @@
-import Project from '../components/Project';
-import Data from '../Project-data.js';
+import ProjectCard from './ProjectCard';
+import Data from '../data/projectData.js';
 
 
-const Projectlogic = () => {
+const ProjectList = () => {
     const newProjectData = Data.map((data)=>{
         return <
-            Project
+            ProjectCard
             key = {data.id}
             coverImage = {data.coverImage}
             url = {data.url}
@@ -25,4 +25,4 @@ const Projectlogic = () => {
     );
 }
  
-export default Projectlogic;
+export default ProjectList;

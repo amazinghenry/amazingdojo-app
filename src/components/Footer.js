@@ -23,7 +23,7 @@ const Footer = () => {
                         <img src={logo} className="main-logo" alt="amazingdojo logo"/>
                     </a>
                 </div>
-                <div class="social">
+                <div className="social">
                     <a href = {links.github} className="github-link">
                         <img src={github} alt="github link" className="main-logo" />
                     </a>
