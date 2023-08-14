@@ -51,7 +51,6 @@ nav {
 }
 
 .navbar {
- padding: 5px 0;
  display: flex;
  justify-content: center;
  align-items: center;
@@ -59,32 +58,49 @@ nav {
  margin-right: auto;
 }
 
-/* custom */
 
 
-.list-group {
-  display: flex;
-  place-items: center;
-  margin: 0;
+.dropbtn {
+  background-color: #ffffff00;
+  border: none;
+  cursor: pointer;
 }
 
-.list-item {
-  list-style-type: none;
-  margin: 0 15px;
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
 }
 
-.link-item {
-  color: #fff;
-  letter-spacing: 2px;
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  right: 0;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
   text-decoration: none;
-  text-transform: uppercase;
-  font-size: 1em;
-  margin:0 8px;
+  display: block;
 }
 
-.link-item:hover {
-  color: #fff;
-  border-bottom: 1px solid #F20D5E;
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.button-icon {
+  width: 24px;
 }
 
 @media screen and (max-width: 760px) {
@@ -101,8 +117,11 @@ nav {
 
 /* header area */
 
-header {
+main {
   text-align: center;
+}
+
+.header-group {
   padding: 60px 0;
 }
 
@@ -156,7 +175,7 @@ header {
 /* section - aboutus */
 .about {
   background-color:#f2f2f2;
-  padding: 80px 0;
+  padding: 60px 0;
 }
 
 .about-group {
@@ -165,6 +184,7 @@ header {
 
 .about-title {
   color: #F20D5E;
+  font-size: 1.5rem;
   text-transform: uppercase;
   margin-bottom: 20px;
   font-weight: 700;
@@ -172,7 +192,6 @@ header {
 .about-text {
   color: var(--clr-1);
   text-align: justify;
-  /* font-weight: 200; */
   line-height: 1.5;
 }
 
@@ -238,10 +257,12 @@ header {
 /* section - services */
 
 .services {
-  padding: 80px 0;
+  padding: 60px 0;
+  background-color:#f1f1f1;
 }
 
 .service-title {
+  font-size: 1.5rem;
   color: #F20D5E;
   text-transform: uppercase;
   font-weight: 700;
@@ -293,14 +314,22 @@ header {
 
 .project {
   background-color: #fff;
-  padding: 80px 0;
+  padding: 60px 0;
 }
 
-.section-title {
+.project-section-title {
+  font-size: 1.5rem;
   color: #F20D5E;
   text-transform: uppercase;
   font-weight: 700;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.project-section-title-text {
+  margin-bottom: 20px;
+  text-align: center;
+
 }
 
 .project-item {
@@ -320,6 +349,7 @@ header {
 }
 
 .project-title {
+  font-size: 1.2rem;
   color: #4f4f4f;
   margin-top: 20px;
 }
@@ -340,17 +370,26 @@ header {
   color: red;
 }
 
-
-
 .project-image { transition: all .2s ease-in-out; border-radius: 5px;}
 .project-image:hover { transform: scale(1.1); }
 
+
+.webdesign-title {
+  color: #4f4f4f;
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+.webdesign-text {
+  color: #4f4f4f;
+  margin-bottom: 40px;
+  line-height: 1.8
+}
 /* project desktop */
 
 @media screen and (min-width: 600px ) {
   .project-group{
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
       justify-items: center;
       align-items: center;
       gap: 20px;
@@ -360,23 +399,17 @@ header {
 }
 
 /* desktop */
-@media screen and (min-width: 700px ) {
-.pp-group {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-  }
-}
 /* mobile */
 
 
 /* testimonial  */
 .testimonial {
-  padding: 80px 0;
-  background: #f2f2f2;
+  padding: 60px 0;
 }
 
 .testimonial-title {
+  text-align: center;
+  font-size: 1.5rem;
   margin-bottom: 40px;
   text-transform: uppercase;
   color: #F20D5E;
@@ -389,7 +422,7 @@ header {
 }
 
 .testimonial-item {
-  background-color: #fff;
+  background-color: #f1f1f1;
   padding: 40px;
   border-radius: 5px;
 }
@@ -410,12 +443,12 @@ header {
 /* form  */
 .contact-form {
   background-color: #f2f2f2;
-  padding: 80px 0;
+  padding: 60px 0;
 }
 
 .form-title {
-  color: #1d1d1f;
-  font-size: 1.2rem;
+  color: #F20D5E;
+  font-size: 1.5rem;
   text-align: center;
   margin-bottom: 40px;
 }
@@ -461,13 +494,6 @@ header {
       margin: 0 auto;
   }
 }
-
-/* #form-feedback {
-  text-align: center;
-  display: block;
-  margin: 0 auto;
-} */
-
 
 
 .success-message {

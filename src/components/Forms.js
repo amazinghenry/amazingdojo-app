@@ -1,7 +1,5 @@
 import React, {useState, useRef} from "react";
 
-
-
 const Forms = () => {
 const formRef = useRef(null)
 const scriptURL = 'https://script.google.com/macros/s/AKfycbzcdgDCkGpUR5w9TOgm5nwSUrD6kZz1nS3EY2og7_I9SvNPF6xsNhOu21sC8nsrM-gflw/exec'
@@ -34,7 +32,7 @@ const handleSubmit = (e) => {
     return ( 
             <section className="contact-form container-fluid" id="contact">
             <div className="mycontainer">
-                <h3 className="form-title">Lets work together on <br/>
+                <h3 className="form-title">Let's work together on <br/>
                 your next project </h3>
                 <form name="submit-to-google-sheet" ref={ formRef } onSubmit={handleSubmit}>
                     <input type="text" name="fullname" id="fullname" placeholder="Name" className="full-name" required/>

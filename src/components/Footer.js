@@ -1,4 +1,3 @@
-import "../index.css"
 import logo from "../assets/amazingdojo-logo.png"
 import github from "../assets/github-logo.svg"
 import instagram from "../assets/instagram-logo.svg"
