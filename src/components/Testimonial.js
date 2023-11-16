@@ -28,7 +28,7 @@ const Testimonials = () => {
 
     return ( 
         <section className="container-fluid testimonial" id="testimonial">
-            <div className="mycontainer">
+            <div className="container">
                 <h3 className="testimonial-title">testimonials</h3>
 
                 <div className="testimonial-group">
@@ -38,7 +38,6 @@ const Testimonials = () => {
                                 <div className="stars">{renderStars(item.rating)}</div>
                                 <h4 className="testimonial-item-title">{item.user}</h4>
                                 <p className="testimonial-item-text"> {item.comment}</p>
-                                
                             </div>
                         ))}
                     </Slider>

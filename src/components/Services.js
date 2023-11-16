@@ -5,7 +5,7 @@ import visualImage from "../assets/visualdesign-image.png"
 const Services = () => {
     return ( 
         <section className = "services" id="aboutus">
-            <div className = "mycontainer">
+            <div className = "container">
                 <h2 className="service-title">Our Services</h2>
                 <div className = "service-group">
                     <div className = "service-item">

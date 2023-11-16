@@ -29,24 +29,19 @@ const handleSubmit = (e) => {
     })
 }
 
-    return ( 
-            <section className="contact-form container-fluid" id="contact">
-            <div className="mycontainer">
-                <h3 className="form-title">Let's work together on <br/>
-                your next project </h3>
-                <form name="submit-to-google-sheet" ref={ formRef } onSubmit={handleSubmit}>
-                    <input type="text" name="fullname" id="fullname" placeholder="Name" className="full-name" required/>
-                    <input type="email" name="email" id="email" placeholder="Email" className="email-ad" required/>
-                    <textarea
-                    name="postContent"
-                    rows={5}
-                    cols={30}
-                    defaultValue = {'Type in message...'} />
-                    <input type="submit" className="form-submit" value={loading ? "Sending..." : "Send Message"} />
-                </form>
-                
-                <p className={ formClass }> { message } </p>
-            </div>
+    return (
+        < section className="form-group">
+            <form name="submit-to-google-sheet" ref={ formRef } onSubmit={handleSubmit}>
+            <input type="text" name="fullname" id="fullname" placeholder="Name" className="full-name" required/>
+            <input type="email" name="email" id="email" placeholder="Email" className="email-ad" required/>
+            <textarea
+            name="postContent"
+            rows={5}
+            cols={30}
+            defaultValue = {'Type in message...'} />
+            <input type="submit" className="form-submit" value={loading ? "Sending..." : "Send Message"} />
+            </form>
+            <p className={ formClass }> { message } </p>
         </section>
     );
 }

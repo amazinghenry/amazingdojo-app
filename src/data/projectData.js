@@ -8,7 +8,7 @@ const projectData = [
     },
     {
         id : 2,
-        title : "Homeland",
+        title : "Homeland App",
         coverImage : "project-2.jpg",
         about : "",
         url : "https://www.homeland.africa",
@@ -16,7 +16,7 @@ const projectData = [
     },
     {
         id : 3,
-        title : "Games Directory",
+        title : "Game Directory",
         coverImage : "project-3.jpg",
         about : "",
         url : "https://games.amazingdojo.xyz",
@@ -35,6 +35,30 @@ const projectData = [
         coverImage : "project-5.jpg",
         about : "",
         url : "https://reda23.thinkmint.eu",
+    },
+
+    {
+        id : 6,
+        title : "Quiz App",
+        coverImage : "project-quiz.jpg",
+        about : "",
+        url : "https://quiz-app.amazingdojo.xyz/",
+    },
+
+    {
+        id : 7,
+        title : "Todo App",
+        coverImage : "project-todo.jpg",
+        about : "",
+        url : "https://todo-app.amazingdojo.xyz/",
+    },
+
+    {
+        id : 8,
+        title : "Weather App",
+        coverImage : "project-weather.jpg",
+        about : "",
+        url : "https://weather-app.amazingdojo.xyz/",
     },
     
     

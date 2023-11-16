@@ -1,4 +1,4 @@
-import logo from "../assets/amazingdojo-logo.png"
+// import logo from "../assets/amazingdojo-logo.png"
 import github from "../assets/github-logo.svg"
 import instagram from "../assets/instagram-logo.svg"
 import twitter from "../assets/twitter-logo.svg"
@@ -18,19 +18,19 @@ const Footer = () => {
         <div className="mycontainer">
             <div className="footer-group">
                 <div className="footer-item">
-                    <a href="/">
-                        <img src={logo} className="main-logo" alt="amazingdojo logo"/>
+                    <a href="/" className="footer-main">
+                        AmazingDojo
                     </a>
                 </div>
                 <div className="social">
-                    <a href = {links.github} className="github-link">
-                        <img src={github} alt="github link" className="main-logo" />
+                    <a href = {links.github}>
+                        <img src={github} alt="github link" className="img-fluid footer-logo" />
                     </a>
-                    <a href={links.instagram} className="instagram-link">
-                        <img src={instagram} alt="instagram link" className="main-logo" />
+                    <a href={links.instagram}>
+                        <img src={instagram} alt="instagram link" className=" img-fluid footer-logo" />
                     </a>
-                    <a href={links.twitter} className="twitter-link">
-                        <img src={twitter} alt="twitter link" className="main-logo" />
+                    <a href={links.twitter}>
+                        <img src={twitter} alt="twitter link" className=" img-fluid footer-logo" />
                     </a>
 
                 </div>

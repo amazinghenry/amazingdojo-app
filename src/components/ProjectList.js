@@ -15,7 +15,7 @@ const ProjectList = () => {
 
     return ( 
         <section className="container-fluid project" id="projects">
-        <div className="mycontainer">
+        <div className="container">
             
             <div className='webdesign-group'>
                 <h3 className='webdesign-title'>Responsive Web Design</h3>
