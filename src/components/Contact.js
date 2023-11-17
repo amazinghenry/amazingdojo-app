@@ -3,8 +3,8 @@ import Forms from "./Forms";
 
 const Contact = () => {
     return ( 
-        <section className="container-fluid contact">
-            <img src={contact} alt="contact display" className="img-fluid" />
+        <section className="container contact">
+            <img src={contact} alt="contact display" className="img-fluid contact-header" />
         <div className="container contact-page">
             <h2 className="contact-title">LETS WORK ON YOUR NEXT PROJECT</h2>
             <p className="contact-text"> Our Customer service team is waiting to assist you</p>

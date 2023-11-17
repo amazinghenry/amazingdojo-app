@@ -13,7 +13,7 @@
 }
 
 body {
-  font-size: 100%;
+  font-size: 14px;
   background-color: #fbfbfd;
   min-height: 100%;
   font-family: 'Inter', sans-serif;
@@ -439,7 +439,6 @@ main {
   padding: 40px 10px;
 }
 .contact {
-  background-color: #f2f2f2;
   padding: 0;
 }
 
@@ -456,7 +455,14 @@ main {
   margin: 0;
 }
 
+.contact-header {
+  display: block;
+  margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
 
+}
 
 
 /* contact */
@@ -582,4 +588,14 @@ footer {
 
 .checked {
   color: #cabd8c;
+}
+
+.coming-soon {
+  padding: 0;
+}
+
+.coming-soon img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
 }

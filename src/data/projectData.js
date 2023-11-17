@@ -27,8 +27,9 @@ const projectData = [
         title : "WatchKing",
         coverImage : "project-4.jpg",
         about : "",
-        url : "https://watchking.amazingdojo.xyz",
+        url : "http://watchking.amazingdojo.xyz",
     },
+    
     {
         id : 5,
         title : "Conference Website",
