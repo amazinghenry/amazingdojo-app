@@ -1,0 +1,64 @@
+.form-group {
+    margin-top: 40px;
+  }
+  
+  
+  :is(.full-name, .email-ad, textarea) {
+    width: 100%;
+    padding: 12px 20px;
+    display: block;
+    margin: 16px 0;
+    background-color: #fbfbfd;
+    color: #4f4f4f;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.1) 0px 8px 16px -8px;
+  }
+  
+  .form-submit {
+    background-color: var(--clr-2);
+    border: none;
+    color: white;
+    padding: 1em 2em;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
+  
+  .form-submit:hover {
+    background-color: #fff;
+    color: #ca094c;
+  }
+  
+  
+  @media screen and (min-width: 600px) {
+    form {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+  }
+  
+  
+  .success-message {
+    background-color: #00994d;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 6px;
+    padding: 10px 16px;
+    color: #fff;
+    width:max-content;
+    text-align: center;
+  }
+  
+  .error-message {
+    background-color: crimson;
+    padding: 10px;
+    color: #fff;
+    width:max-content;
+  }

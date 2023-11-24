@@ -35,7 +35,7 @@ const projectData = [
         title : "Conference Website",
         coverImage : "project-5.jpg",
         about : "",
-        url : "https://reda23.thinkmint.eu",
+        url : "https://reda2023.thinkmint.eu",
     },
 
     {
@@ -61,6 +61,14 @@ const projectData = [
         about : "",
         url : "https://weather-app.amazingdojo.xyz/",
     },
+    {
+        id : 8,
+        title : "HappyFam",
+        coverImage : "project-6.jpg",
+        about : "",
+        url : "http://happyfam.amazingdojo.xyz/",
+    },
+    
     
     
 ]

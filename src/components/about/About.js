@@ -1,7 +1,10 @@
+import './about.css';
+
 import { Link } from "react-router-dom";
-import image1 from '../assets/about-image1.jpg';
-import image2 from '../assets/about-image2.jpg';
-import image3 from '../assets/about-image3.jpg';
+import image1 from '../../assets/about-image1.jpg';
+import image2 from '../../assets/about-image2.jpg';
+import image3 from '../../assets/about-image3.jpg';
+
 const About = () => {
 
     return (

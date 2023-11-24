@@ -1,0 +1,74 @@
+.project {
+    background-color: #fff;
+    padding: 60px 0;
+  }
+  
+  .project-section-title {
+    font-size: 1.5rem;
+    color: #F20D5E;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .project-section-title-text {
+    margin-bottom: 20px;
+    text-align: center;
+  
+  }
+  
+  .project-item {
+    margin-bottom: 40px;
+    text-decoration: none;
+  
+  }
+  
+  .project-image-group {
+    background-color: #ffffff;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, 
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .project-image {
+    width: 100%;
+  }
+  
+  .project-title {
+    font-size: 1.2rem;
+    color: #4f4f4f;
+    margin-top: 20px;
+  }
+  .project-title :hover {
+    color:#fff;
+  } 
+  
+  .project-url {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    color: var(--clr-2);
+  }
+  
+  .project-url:hover {
+    color: red;
+  }
+  
+  .project-image { transition: all .2s ease-in-out; border-radius: 5px;}
+  .project-image:hover { transform: scale(1.1); }
+  
+
+  .webdesign-title {
+    color: #4f4f4f;
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  .webdesign-text {
+    color: #4f4f4f;
+    margin-bottom: 40px;
+    line-height: 1.8
+  }

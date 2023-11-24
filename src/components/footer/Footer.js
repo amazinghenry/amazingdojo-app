@@ -1,7 +1,8 @@
-// import logo from "../assets/amazingdojo-logo.png"
-import github from "../assets/github-logo.svg"
-import instagram from "../assets/instagram-logo.svg"
-import twitter from "../assets/twitter-logo.svg"
+import './footer.css';
+
+import github from "../../assets/github-logo.svg"
+import instagram from "../../assets/instagram-logo.svg"
+import twitter from "../../assets/twitter-logo.svg"
 
 const links = {
     twitter :  'https://twitter.com/amazing_henry',
@@ -16,7 +17,9 @@ const Footer = () => {
     return ( 
         <footer className="container-fluid">
         <div className="mycontainer">
+
             <div className="footer-group">
+
                 <div className="footer-item">
                     <a href="/" className="footer-main">
                         AmazingDojo
@@ -26,12 +29,14 @@ const Footer = () => {
                     <a href = {links.github}>
                         <img src={github} alt="github link" className="img-fluid footer-logo" />
                     </a>
-                    <a href={links.instagram}>
-                        <img src={instagram} alt="instagram link" className=" img-fluid footer-logo" />
+                    <a href = {links.github}>
+                        <img src={instagram} alt="github link" className="img-fluid footer-logo" />
                     </a>
-                    <a href={links.twitter}>
-                        <img src={twitter} alt="twitter link" className=" img-fluid footer-logo" />
+                    <a href = {links.github}>
+                        <img src={twitter} alt="github link" className="img-fluid footer-logo" />
                     </a>
+
+                   
 
                 </div>
                 <div className="footer-item">

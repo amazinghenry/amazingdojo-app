@@ -1,0 +1,50 @@
+.header-group {
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .header-image {
+    width: 250px;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  
+  .header-text-intro {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .header-text-content {
+    font-size: 1.2em;
+    font-weight: 300;
+    color: #7a7a7a;
+  }
+  
+  .header-link {
+    background-color: #1d1d1f;
+    color: #fff;
+    padding: 12px 18px;
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-radius: 5px;
+  }
+  
+  .header-link:hover {
+    border: none;
+    background-color: var(--clr-2);
+    color: #fff;
+  }
+  
+  /* desktop */
+  
+  @media screen and (min-width: 600px ) {
+    .header-text {
+      width: 600px;
+      margin: 0 auto;
+    }
+  }

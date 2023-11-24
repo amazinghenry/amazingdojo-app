@@ -1,5 +1,5 @@
-// import logo from "../assets/amazingdojo-logo.png"
-// import menuButton from "../assets/menu.png"
+import './navbar.css';
+
 import { Link } from "react-router-dom"
 
 const Navbar = () => {

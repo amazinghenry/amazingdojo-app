@@ -1,4 +1,5 @@
-import testimonialData from "../data/testimonialData";
+import './testimonial.css';
+import testimonialData from "../../data/testimonialData";
 import Slider from "react-slick";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';

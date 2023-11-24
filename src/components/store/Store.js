@@ -1,3 +1,5 @@
+import './store.css';
+
 const Store = () => {
     return ( 
         <section className="container-fluid coming-soon">

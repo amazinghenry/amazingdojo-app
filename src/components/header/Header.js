@@ -1,4 +1,5 @@
-import mockup from '../assets/amazingmockup.png'
+import './header.css';
+import mockup from '../../assets/amazingmockup.png'
 import { Link } from 'react-router-dom';
 
 const Header = () => {

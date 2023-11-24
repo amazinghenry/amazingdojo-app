@@ -1,4 +1,5 @@
 import React, {useState, useRef} from "react";
+import './form.css';
 
 const Forms = () => {
 const formRef = useRef(null)

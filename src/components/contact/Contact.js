@@ -1,5 +1,7 @@
-import contact from "../assets/contact-header.jpg"
-import Forms from "./Forms";
+import contact from "../../assets/contact-header.jpg";
+import Forms from "../form/Form";
+
+import './contact.css';
 
 const Contact = () => {
     return ( 

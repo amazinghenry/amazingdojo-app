@@ -5,8 +5,6 @@ const testimonialData = [
     comment: 'He helped my team and I stay on the same page. Previously, we were all over the board. Using Henry has definitely saved us time and money.',
     rating: 5
     },
-    
-
     {
     user: 'Dolapo Odunsi',
     comment: 'Amazing Henry has really helped our business. Definitely worth the investment. Thank you!',

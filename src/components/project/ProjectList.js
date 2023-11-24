@@ -1,5 +1,6 @@
 import ProjectCard from './ProjectCard';
-import Data from '../data/projectData.js';
+import Data from '../../data/projectData.js';
+import './project.css';
 
 
 const ProjectList = () => {

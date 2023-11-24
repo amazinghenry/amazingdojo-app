@@ -1,6 +1,7 @@
-import uiImage from "../assets/ui-design-image.png"
-import webImage from "../assets/webdev-image.png"
-import visualImage from "../assets/visualdesign-image.png"
+import './service.css';
+import uiImage from "../../assets/ui-design-image.png";
+import webImage from "../../assets/webdev-image.png";
+import visualImage from "../../assets/visualdesign-image.png";
 
 const Services = () => {
     return ( 
