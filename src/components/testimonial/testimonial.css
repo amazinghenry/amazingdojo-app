@@ -1,5 +1,7 @@
 .testimonial {
     padding: 60px 0;
+    text-align: center;
+    width: 500px;
   }
   
   .testimonial-title {
@@ -7,7 +9,7 @@
     font-size: 1.5rem;
     margin-bottom: 40px;
     text-transform: uppercase;
-    color: #F20D5E;
+    color: #1d1d1f;
     font-weight: 700;
   }
   
@@ -17,19 +19,27 @@
   }
   
   .testimonial-item {
-    background-color: #f1f1f1;
+    background-color: #1d1d1f;
     padding: 40px;
     border-radius: 5px;
+
   }
   
   .testimonial-item-title {
     font-size: 1.2rem;
+    font-weight: 600;
     color: var(--clr-2);
     margin-bottom: 10px;
   }
   
   .testimonial-item-text {
-    font-size: 1.2rem;
-    color: #4f4f4f;
+    font-size: 1rem;
+    color: #fff;
     margin-bottom: 10px;
+  }
+
+  @media screen and (max-width: 600px) {
+   .testimonial {
+    width: 100%;
+   }
   }

@@ -6,7 +6,7 @@
   
   .service-title {
     font-size: 1.5rem;
-    color: #F20D5E;
+    color: #1d1d1f;
     text-transform: uppercase;
     font-weight: 800;
     margin-bottom: 20px;
@@ -34,11 +34,15 @@
   .service-item-title {
     color: #1d1d1f;
     text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
   }
   
   .service-item-text {
     color: #4f4f4f;
-    margin-top: 15px;
+    line-height: 1.2;
+    font-size: 0.8rem;
   }
   
   

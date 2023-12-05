@@ -24,10 +24,10 @@ const projectData = [
     },
     {
         id : 4,
-        title : "WatchKing",
-        coverImage : "project-4.jpg",
+        title : "Healthcare",
+        coverImage : "project-7.jpeg",
         about : "",
-        url : "http://watchking.amazingdojo.xyz",
+        url : "http://healthcare.amazingdojo.xyz/",
     },
     
     {
@@ -62,7 +62,7 @@ const projectData = [
         url : "https://weather-app.amazingdojo.xyz/",
     },
     {
-        id : 8,
+        id : 9,
         title : "HappyFam",
         coverImage : "project-6.jpg",
         about : "",

@@ -2,26 +2,17 @@
     background-color: #fff;
     padding: 60px 0;
   }
-  
-  .project-section-title {
-    font-size: 1.5rem;
-    color: #F20D5E;
-    text-transform: uppercase;
-    font-weight: 700;
-    margin-bottom: 10px;
-    text-align: center;
-  }
-  
-  .project-section-title-text {
-    margin-bottom: 20px;
-    text-align: center;
-  
-  }
+
+  .project-group{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
+}
   
   .project-item {
-    margin-bottom: 40px;
     text-decoration: none;
-  
   }
   
   .project-image-group {
@@ -37,13 +28,11 @@
   }
   
   .project-title {
-    font-size: 1.2rem;
+    font-size: 1rem;
+    font-weight: 600;
     color: #4f4f4f;
-    margin-top: 20px;
+    margin: 10px 0;
   }
-  .project-title :hover {
-    color:#fff;
-  } 
   
   .project-url {
     display: block;
@@ -63,8 +52,9 @@
   
 
   .webdesign-title {
-    color: #4f4f4f;
-    font-size: 3rem;
+    color: #1d1d1d;
+    font-weight: 700;
+    font-size: 2rem;
     margin-bottom: 10px;
   }
   .webdesign-text {
@@ -72,3 +62,17 @@
     margin-bottom: 40px;
     line-height: 1.8
   }
+
+  @media screen and (max-width: 600px ) {
+    .project-group{
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media screen and (max-width: 600px ) {
+    .webdesign-title {
+      font-size: 1.5rem;
+    }
+  }
+
+  

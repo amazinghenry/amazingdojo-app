@@ -10,7 +10,7 @@ const Header = () => {
         <h2 className="header-text-intro">Elevate Your Online Presence with Custom Web Development</h2>
         <p className="header-text-content">You have a unique story to tell. Let us help you tell it with a website that showcases your brand and connects you with customers.
         Don't settle for a generic, cookie-cutter website. Partner with us for a web development solution tailored specifically for your business.</p>
-        <Link to="/project" className="header-link"> See Projects </Link>
+        <Link to="/project" className="header-link"> Projects </Link>
                 </div>
         </section>
      );

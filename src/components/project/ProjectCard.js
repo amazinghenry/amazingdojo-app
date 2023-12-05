@@ -7,10 +7,8 @@ const Project = ({title, url, coverImage}) => {
         <div className="project-image-group">
         <img src = {`/images/${ coverImage }` } className="project-image" alt= { title } />
         </div>
-        <div className="project-title-group">
-        <h3 className="project-title">{title}</h3>
-         </div>
-        </Link>
+        <div className="project-title">{title}</div>
+      </Link>
      );
 }
  
